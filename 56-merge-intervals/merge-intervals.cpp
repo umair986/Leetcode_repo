@@ -15,9 +15,9 @@ public:
                 if(intervals[j][0] <= endposi){
                 endposi = max(endposi, intervals[j][1]);
                 }
-                // else{
-                //  break;
-                // }
+                else{
+                 break;
+                }
             }
             ans.push_back({startposi , endposi});
         }
