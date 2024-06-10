@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-      if (matrix.empty() || matrix[0].empty()) {
+      if (matrix.empty()) {
         return false;
     }
 
